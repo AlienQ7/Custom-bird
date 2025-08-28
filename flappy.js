@@ -5,9 +5,9 @@ let board_h = 600;
 let context;
 
 // Sounds
-let slap_sfx = new Audio('assets/slap.wav');
-let woosh_sfx = new Audio('assets/woosh.wav');
-let score_sfx = new Audio('assets/score.wav');
+let slap_sfx = new Audio('slap.wav');
+let woosh_sfx = new Audio('woosh.wav');
+let score_sfx = new Audio('score.wav');
 
 // Player
 let player_w = 200;
@@ -89,14 +89,14 @@ window.onload = function() {
 };
 
 function loadDefaultImages(shouldStart) {
-    player_img.src = "assets/me.jpg"; // Default image
+    player_img.src = "me.jpg"; // Default image
     player_img.onload = function() {
-        bg_img.src = "assets/space1.jpg";
-        ground_img.src = "assets/floor.jpg";
+        bg_img.src = "space1.jpg";
+        ground_img.src = "floor.jpg";
         pipe_up_img = new Image();
-        pipe_up_img.src = "assets/pipe_up.png";
+        pipe_up_img.src = "pipe_up.png";
         pipe_down_img = new Image();
-        pipe_down_img.src = "assets/pipe_down.png";
+        pipe_down_img.src = "pipe_down.png";
         if (shouldStart) {
             const startButton = document.getElementById('startButton');
             startButton.style.display = 'block';
