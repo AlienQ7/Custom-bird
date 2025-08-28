@@ -1,0 +1,15 @@
+
+@font-face {
+    font-family: 'Reg';
+    src: url('assets/BaiJamjuree-Bold.ttf') format("truetype");
+    font-display: swap;
+}
+
+body {
+    font-family: 'Reg';
+    text-align: center;
+}
+
+#board {
+    background-color: green;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Flappy Script</title>
+        <style>
+            #fileInput { display: block; margin: 10px auto; padding: 8px; font-size: 1em; }
+            #startButton { display: none; margin: 10px auto; padding: 10px 20px; font-size: 1.2em; cursor: pointer; }
+            #board { background-color: green; display: none; } /* Hide canvas initially */
+        </style>
+    </head>
+
+    <body>
+        <input type="file" id="fileInput" accept="image/*">
+        <button id="startButton">Start Game</button>
+        <canvas id="board"></canvas>
+
+        <script src="flappy.js"></script>
+    </body>
+</html>
